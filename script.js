@@ -12,7 +12,7 @@ xhttp.send();
 
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
-    var x = xmlDoc.getElementsByTagName('title')[1];
+    var x = xmlDoc.getElementsByTagName('title')[0];
     var y = x.childNodes[0];
     document.getElementById("demo").innerHTML = y.nodeValue;
 }
