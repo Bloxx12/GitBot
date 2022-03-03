@@ -1,3 +1,4 @@
+/*
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -16,3 +17,5 @@ function myFunction(xml) {
     var y = x.childNodes[0];
     document.getElementById("demo").innerHTML = y.nodeValue;
 }
+
+*/
