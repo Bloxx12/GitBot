@@ -8,5 +8,9 @@ def hello() -> str:
 
 @app.route('/index.html')
 def inputting() -> 'html':
-    return render_template('index.html')
+    return render_template('template1.html')
 app.run()
+
+@app.route('/test')
+def hello() -> str:
+    return 'Hello World!'
